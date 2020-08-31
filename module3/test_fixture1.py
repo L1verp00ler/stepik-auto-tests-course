@@ -2,7 +2,7 @@ from selenium import webdriver
 
 link = "http://selenium1py.pythonanywhere.com/"
 
-
+# pytest -s test_fixture1.py
 class TestMainPage1():
 
     @classmethod
