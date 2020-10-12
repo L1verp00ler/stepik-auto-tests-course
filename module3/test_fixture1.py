@@ -37,7 +37,7 @@ class TestMainPage2():
         self.browser.quit()
 
     def test_guest_should_see_login_link(self):
-        print('start test link 1')
+        print('start test link 2')
         self.browser.get(link)
         self.browser.find_element_by_css_selector("#login_link")
 
