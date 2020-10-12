@@ -13,6 +13,7 @@ def browser():
     browser.quit()
 
 
+# pytest -s -v test_mark_step4.py
 class TestMainPage1():
 
     @pytest.mark.skip

@@ -13,6 +13,9 @@ def browser():
     browser.quit()
 
 
+# pytest -s -v -m "not smoke" test_mark_step3.py
+# pytest -s -v -m "smoke or regression" test_mark_step3.py
+# pytest -s -v -m "smoke and win10" test_mark_step3.py
 class TestMainPage1():
     @pytest.mark.smoke
     def test_guest_should_see_login_link(self, browser):

@@ -1,6 +1,7 @@
 import pytest
 
 
+# pytest -v -m "smoke and not beta_users" test_mark_step7_exam2.py
 @pytest.fixture()
 def browser():
     pass

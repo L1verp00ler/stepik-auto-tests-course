@@ -13,6 +13,7 @@ def browser():
     browser.quit()
 
 
+# pytest -s -v -m smoke test_mark_step2.py
 class TestMainPage1():
     @pytest.mark.smoke
     def test_guest_should_see_login_link(self, browser):

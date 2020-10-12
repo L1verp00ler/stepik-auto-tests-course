@@ -12,6 +12,8 @@ def browser():
     print("\nquit browser..")
     browser.quit()
 
+
+# pytest -s -rx -v test_mark_step5_2.py
 class TestMainPage1():
 
     def test_guest_should_see_login_link(self, browser):
